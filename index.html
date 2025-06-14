@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>Gemini 植栽建議儀表板</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🌿 Gemini 植栽建議儀表板</h1>
+
+  <div class="container">
+    <input type="text" id="plant" placeholder="植物名稱（如：薄荷）">
+    <input type="text" id="condition" placeholder="環境條件（如：光線不足）">
+    <button onclick="getSuggestion()">查詢建議</button>
+  </div>
+
+  <div class="result-box">
+    <h3>AI 建議：</h3>
+    <pre id="output">尚未查詢</pre>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
